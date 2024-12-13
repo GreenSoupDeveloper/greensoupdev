@@ -40,6 +40,9 @@ body {
   .hello {
     font-size: 90px;
   }
+  .christ {
+    font-size: 70px;
+  }
   .prtext {
     font-size: 45px;
   }
@@ -67,6 +70,9 @@ body {
 @media only screen and (max-width: 580px) {
   .hello {
     font-size: 25px;
+  }
+  .christ {
+    font-size: 30px;
   }
   .helloAbout {
     font-size: 25px;
