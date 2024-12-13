@@ -1,7 +1,8 @@
 body {
   font-family: "Poppins", sans-serif;
   background: rgb(0, 0, 0);
-  background: linear-gradient(
+  
+  /*background: linear-gradient(
     90deg,
     rgb(4, 26, 0) 1%,
     rgb(65, 142, 46) 28%,
@@ -9,6 +10,16 @@ body {
     rgba(47, 74, 29, 1) 100%,
     rgb(25, 92, 45) 100%,
     rgb(24, 61, 0) 100%,
+    rgba(0, 0, 0, 1) 1%
+  );*/
+  background: linear-gradient(
+    90deg,
+    rgb(26, 4, 0) 1%,
+    rgb(142, 65, 46) 28%,
+    rgb(134, 99, 0) 100%,
+    rgba(74, 47, 29, 1) 100%,
+    rgb(92, 25, 45) 100%,
+    rgb(61, 24, 0) 100%,
     rgba(0, 0, 0, 1) 1%
   );
   background-size: 100000% 400%;
