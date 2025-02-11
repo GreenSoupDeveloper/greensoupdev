@@ -49,10 +49,10 @@
                         draw tho.</p>
                     <p id="randomLettering">ahshdajsdkahsduaid :)</p>
                     <script>
-
+                        document.getElementById('secretPasswordInput').value = "";
                         const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
                         let result = "";
-                        for (let i = 0; i < 14; i++) {
+                        for (let i = 0; i < 12; i++) {
                             result += chars.charAt(Math.floor(Math.random() * chars.length));
                         }
                         document.getElementById("randomLettering").innerHTML = "<i>" + result + "</i> :)";
@@ -69,6 +69,7 @@
                             } else {
                                 console.log("yes");
                                 document.getElementById("randomLettering").innerHTML = "yay :)";
+                                document.getElementById('secretPasswordInput').value = "yay you did it!";
                                 congrats();
                             }
                         }
