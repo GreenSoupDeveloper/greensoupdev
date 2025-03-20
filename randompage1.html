@@ -9,9 +9,9 @@
 
 <body>
     <center>
-        <audio id="rick"src="audio1.mp3"></audio>
+        <audio id="rick"src="audio1.mp3" loop></audio>
 
-        <video width="600" autoplay muted loop>
+        <video id="rickvid"width="600" muted loop>
             <source src="
             rick.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -19,6 +19,7 @@
     </center>
     <script>
         document.getElementById('rick').play();
+        document.getElementById("rickvid").play();
     </script>
 </body>
 
